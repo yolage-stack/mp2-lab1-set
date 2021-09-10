@@ -32,7 +32,7 @@ uint TBitField::getMask(const size_t n) const // битовая маска дл�
 // доступ к битам битового поля
 uint TBitField::getLength() const // получить длину (к-во битов)
 {
-  return 0;
+    return 0;
 }
 
 void TBitField::setBit(const size_t n) // установить бит

@@ -200,7 +200,6 @@ TEST(TBitField, can_invert_bitfield)
     
 }
 
-
 TEST(TBitField, can_invert_large_bitfield)
 {
     const size_t size = 38;

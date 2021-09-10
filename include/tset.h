@@ -10,7 +10,7 @@
 class TSet
 {
 private:
-  size_t maxPower;      // максимальная мощность множества
+  size_t maxPower;    // максимальная мощность множества
   TBitField bitField; // битовое поле для хранения характеристического вектора
 public:
   TSet(size_t mp);
@@ -19,7 +19,7 @@ public:
   operator TBitField();      // преобразование типа к битовому полю
 
   // доступ к битам
-  size_t getMaxPower() const;             // максимальная мощность множества
+  size_t getMaxPower() const;           // максимальная мощность множества
   void insElem(const uint elem);        // включить элемент в множество
   void delElem(const uint elem);        // удалить элемент из множества
   bool isMember(const uint elem) const; // проверить наличие элемента в множестве

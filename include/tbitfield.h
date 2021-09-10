@@ -20,6 +20,7 @@ private:
     // методы реализации
     size_t getIndex(const size_t n) const; // индекс в pМем для бита n
     uint getMask(const size_t n) const;    // битовая маска для бита n
+                                 
 public:
      TBitField(size_t len);
      TBitField(const TBitField &bf);
