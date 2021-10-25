@@ -35,6 +35,11 @@ uint TBitField::getLength() const // получить длину (к-во бит
     return 0;
 }
 
+size_t TBitField::getNumBytes() const // получить количество байт выделенной памяти
+{
+    return memLen * sizeof(uint);
+}
+
 void TBitField::setBit(const size_t n) // установить бит
 {
 
